@@ -1,120 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
-}
-
-body {
+  }
+  body{
     width: 100%;
     height: 100vh;
+  }
+  .all_gp_card{
+    /* background-color: red; */
+    width: 50%;
+    /* height: 300px; */
+    padding: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(54,117,197,1) 10%, rgba(204,111,224,1) 51%, rgba(230,104,255,1) 93%);
-}
-.form-group-login{
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px;
+  }
+  .card {
+    /* background-color: blue; */
     width: 25%;
-    height: 35rem;
-    background-color: #ffff;
+    height: 285px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px #2827278a;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-}
-h2{
+    box-shadow: 2px 2px 2px 1px #9492925f;
+  }
+  .card img{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    font-family: "Sigmar", serif;
-}
-#username{
-    margin-top: 30px;
-    color: dimgray;
-}
-
-.form-gp{
+    border-radius: 15px 15px 0px 0px;
+    height: 50%;
+    object-fit: cover;
+  }
+  .gp_title{
+    /* background-color: pink; */
     width: 100%;
-    height: 30px;
+    height: 50%;
+    border-radius: 0px 0px 15px 15px;
+  }
+  .gp_title h3{
+    width: 100%;
+    height: auto;
     /* background-color: red; */
-    border-bottom: solid dimgray 1px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    color: dimgray;
-}
-.form-gp input[type="text"]{
+    padding: 10px;
+  }
+  .gp_title p{
+    padding: 0px 10px 10px 10px;
+  }
+  #redtext{
+    color: red;
+    font-size: 20px;
+  }
+  .button{
     width: 100%;
-    height: 100%;
+    padding: 0px 10px 0px 10px;
+  }
+  .button button {
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
     border: 0;
-    outline: 0;
-    color: dimgray;
-    padding-left: 10px;
-}
-.form-gp input[type="password"]{
-    width: 100%;
-    height: 100%;
-    border: 0;
-    outline: 0;
-    color: dimgray;
-    padding-left: 10px;
-}
-
-ion-icon{
-    font-size: 25px;
-}
-.form-gps{
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    font-size: 13px;
-    margin-top: 10px;
-}
-.form-gps a{
-    text-decoration: none;
-}
-.form-gp-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 30px;
-}
-.form-gp-btn button{
+    background-color: #0fac0f;
     cursor: pointer;
-    border-radius: 30px;
-    width: 100%;
-    height: 2.5rem;
-    border: 0;
-    background: linear-gradient(90deg, rgba(54,117,197,1) 10%, rgba(204,111,224,1) 51%, rgba(230,104,255,1) 93%);
-}
-.form-gp-btn button:hover{
-    color: aliceblue;
-    background: linear-gradient(90deg, rgba(204,111,224,1) 21%, rgba(54,117,197,1) 48%, rgba(230,104,255,1) 93%);
-}
-.form-gp-signup{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 30px;
-}
-.form-icon{
-    margin-top: 20px;
-}
-.form-icon a ion-icon{
-    color: blueviolet;
-}
-.create{
-    font-size: 15px;
-    text-decoration: none;
-    width: 100%;
-    height: 7rem;
-    /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    align-items: end;
 
-
-}
+    
+  }
+  .button button:hover{
+    background-color: #078807;
+  }
